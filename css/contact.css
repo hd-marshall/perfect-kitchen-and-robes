@@ -236,7 +236,7 @@ HERO
     height: 50vh;
     background-color: var(--contrast-clr);
     position: relative;
-    background-image: url(../img/hero-2.webp);
+    background-image: url(../img/hero-contact.webp);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-size: cover;

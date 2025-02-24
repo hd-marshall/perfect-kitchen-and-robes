@@ -1,15 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     const section = document.querySelector('.brands');
 
-    console.log('Current path:', window.location.pathname);
-    console.log('Full URL:', window.location.href);
-
     const images = [
-        '{{ site.baseurl}}/img/slideshow-polytec.png',
-        '{{ site.baseurl}}/img/slideshow-nikpol.png',
-        '{{ site.baseurl}}/img/slideshow-pivotech.png',
-        '../../img/slideshow-dorset.png',
-        '../../img/slideshow-coolingBrothers.png'
+        '/img/slideshow-polytec.png',
+        '/img/slideshow-nikpol.png',
+        '/img/slideshow-pivotech.png',
+        '/img/slideshow-dorset.png',
+        '/img/slideshow-coolingBrothers.png'
     ];
 
     const track = document.createElement('div');

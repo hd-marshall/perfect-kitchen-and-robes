@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const section = document.querySelector('.brands');
 
     const images = [
-        '../img/slideshow-polytec.png',
-        '../img/slideshow-nikpol.png',
-        '../img/slideshow-pivotech.png',
-        '../img/slideshow-dorset.png',
-        '../img/slideshow-coolingBrothers.png',
+        '${repoName}/img/slideshow-polytec.png',
+        '${repoName}/img/slideshow-nikpol.png',
+        '${repoName}/img/slideshow-pivotech.png',
+        '${repoName}/img/slideshow-dorset.png',
+        '${repoName}/img/slideshow-coolingBrothers.png',
     ];
 
     const track = document.createElement('div');

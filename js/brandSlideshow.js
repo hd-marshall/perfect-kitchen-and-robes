@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const section = document.querySelector('.brands');
 
     const images = [
-        '../../img/slideshow-polytec.png',
-        '../../img/slideshow-nikpol.png',
-        '../../img/slideshow-pivotech.png',
+        '{{ site.baseurl}}/img/slideshow-polytec.png',
+        '{{ site.baseurl}}/img/slideshow-nikpol.png',
+        '{{ site.baseurl}}/img/slideshow-pivotech.png',
         '../../img/slideshow-dorset.png',
         '../../img/slideshow-coolingBrothers.png'
     ];

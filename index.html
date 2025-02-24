@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Kitchen & Robes</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="header-bar">
+            <div class="nav-logo">
+                <a href="/index.html"><img src="img/primary-logo.png" alt="LOGO"></a>
+            </div>             
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav-mobile" class="nav-link" href="./pages/contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a id="nav-quote" class="nav-link" href="#contact">Make an Enquiry</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bars"></span>
+                <span class="bars"></span>
+                <span class="bars"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Designed For You, Built To Last</h1>
+        <a href="#contact"><button>Make an Enquiry</button></a>
+        <ul class="hero-links">
+            <li class="hero-item">
+                <a class="hero-link" href="https://www.facebook.com/profile.php?id=61572688564976"><i class="fa-brands fa-facebook-square"></i></a>
+            </li>
+            <li class="hero-item">
+                <a class="hero-link" href="https://www.instagram.com/perfectkitchenrobes"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="hero-item">
+                <a class="hero-link" href="mailto: perfectkitchenrobes@gmail.com"><i class="fa-solid fa-at"></i></a>
+            </li>
+        </ul>
+        <img src="img/hero-2.webp" alt="">
+    </section>
+
+    <section class="services" id="services">
+        <h1>Our Services</h1>
+        <div class="services-col">
+            <div class="services-panel left">
+                <h2>Kitchens</h2>
+                <p>Create the kitchen of your dreams with our bespoke designs, built to fit your style and needs. From functional layouts to luxurious finishes.</p>
+            </div>
+            <div class="services-panel mid">
+                <h2>Wardrobes</h2>
+                <p>Maximize your storage space with our custom-made wardrobes, tailored to suit your lifestyle and room dimensions.</p>
+            </div>
+            <div class="services-panel right">
+                <h2>Showers and More</h2>
+                <p>Shower screens offer a modern and stylish design, enhancing the appearance of any bathroom with its sleek finish.</p>
+            </div>
+        </div>  
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <h1>About Us</h1>
+            <p>A family-owned business with over 35+ years of experience. We craft beautiful kitchens, wardrobes, vanities and much more, bringing expertise and quality craftsmanship to homes across Melbourne. Transform your space with our custom design solutions. 
+                Other dedicated team of skilled craftsmen takes pride in every project, ensuring meticulous attention to detail and superior finishes. From initial concept to final installation, we work closely with our clients to understand their vision and lifestyle needs. 
+                <br><br>Whether you're dreaming of a modern minimalist kitchen, a luxurious walk-in wardrobe, or a sophisticated bathroom vanity, we combine innovative design with traditional woodworking techniques to create spaces that are both functional and stunning. Our commitment to using premium materials and staying current with the latest design trends ensures that your investment will stand the test of time. Experience the perfect blend of style, functionality, and durability with our bespoke solutions.</p>
+        </div>
+    </section> 
+
+    <section class="brands"></section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h1>Make an Enquiry</h1>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="suburb">Suburb</label>
+                    <input type="text" id="suburb" name="suburb" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Service Required</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a Service</option>
+                        <option value="kitchen">Kitchen</option>
+                        <option value="wardrobe">Wardrobe</option>
+                        <option value="vanity">Shower</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Enquiry Request</button>
+            </form>
+            <div id="formMessage" class="form-message"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-page-links">
+            <ul class="footer-menu">
+                <li class="footer-item">
+                    <a class="footer-link" href="#services">Services</a>
+                </li>   
+                <li class="footer-item">
+                    <a class="footer-link" href="#about-us">About Us</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <span class="footer-bars"></span>
+        </div>
+        <div class="footer-page-links">
+            <ul class="footer-menu">
+                <li class="footer-item">
+                    <a class="footer-link" href="https://www.facebook.com/profile.php?id=61572688564976"><i class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="mailto: perfectkitchenrobes@gmail.com"><i class="fa-solid fa-at"></i></a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="https://www.instagram.com/perfectkitchenrobes"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+            <span class="footer-bars"></span>
+        </div>
+        <div class="footer-page-links">
+            <p>57 Capital Link Drive, CAMPBELLFIELD VIC 3061 Melbourne</p>
+        </div>
+    </footer>
+
+    <script src="js/smoothlink.js" type="text/javascript"></script>
+    <script src="js/hamburger.js" type="text/javascript"></script>
+    <script src="js/brandSlideshow.js" type="text/javascript"></script>
+    <script src="js/contactForm.js" type="text/javascript"></script>
+
+</body>
+
+</html>

@@ -296,27 +296,12 @@ HERO
     transition: all 200ms ease-in;
     opacity: 0.8;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    transition: all 200ms ease-in;
  }
  
- .hero-link i:hover {
-    opacity: 0; /* Start invisible */
-    animation: fadeInAndMove 450ms forwards; /* Total animation time: 450ms */
- }
- 
- @keyframes fadeInAndMove {
-    0% {
-        opacity: 0;
-        transform: translateY(0) scale(1);
-    }
-    55% { /* Stay invisible for 250ms (55% of 450ms) */
-        opacity: 0;
-        transform: translateY(0) scale(1);
-    }
-    100% {
-        opacity: 1;
-        color: var(--contrast-clr);
-        transform: translateY(-5px) scale(1.1);
-    }
+.hero-link i:hover {
+    opacity: 1; /* Start invisible */
+    transform: translateY(-5px) scale(1.1);
 }
 
 .hero img {

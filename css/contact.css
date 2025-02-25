@@ -26,6 +26,16 @@ html {
     scroll-padding-top: 100px; /* Adjust this value as needed */
 }
 
+body {
+    width: 100%;
+    opacity: 0.1;
+    transition: opacity 1s ease-in-out; /* 2-second fade-in */
+}
+
+body.loaded {
+    opacity: 1;
+}
+
 * {
     padding: 0;
     margin: 0;

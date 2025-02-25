@@ -33,3 +33,8 @@ document.querySelectorAll(".nav-link").forEach(n => n.
             header.classList.remove('header-scrolled');
         }
     }));
+
+window.addEventListener("load", function () {
+        document.body.classList.add("loaded");
+    });
+      

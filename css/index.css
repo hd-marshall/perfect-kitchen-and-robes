@@ -54,6 +54,12 @@ html {
 
 body {
     width: 100%;
+    opacity: 0.1;
+    transition: opacity 2s ease-in-out; /* 2-second fade-in */
+}
+
+body.loaded {
+    opacity: 1;
 }
 
 .form-message {

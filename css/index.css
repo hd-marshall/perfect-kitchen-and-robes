@@ -221,7 +221,6 @@ HERO
     background-color: rgba(106, 105, 105, 0.278);
     background-image: url(../img/hero-2.webp);
     background-blend-mode: multiply;
-    background-attachment: fixed;
     background-size: cover;
     height: 100vh;
 }

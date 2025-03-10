@@ -707,7 +707,7 @@ IPHONE SIZING CSS --
     
     .nav-menu {
         position: absolute;
-        left: -100%;
+        right: -100%;
         top: 80px;
         gap: 0;
         flex-direction: column;
@@ -726,7 +726,7 @@ IPHONE SIZING CSS --
     }
 
     .nav-menu.active {
-        left: 0;
+        right: 0;
     }
 
     .hero {

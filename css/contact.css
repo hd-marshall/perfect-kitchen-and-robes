@@ -212,7 +212,7 @@ header {
     
     .nav-menu {
         position: absolute;
-        left: -100%;
+        right: -100%;
         top: 80px;
         gap: 0;
         flex-direction: column;
@@ -231,7 +231,7 @@ header {
     }
 
     .nav-menu.active {
-        left: 0;
+        right: 0;
     }
 }
 
@@ -248,7 +248,6 @@ HERO
     position: relative;
     background-image: url(../img/hero-contact.webp);
     background-blend-mode: multiply;
-    background-attachment: fixed;
     background-size: cover;
 }
 

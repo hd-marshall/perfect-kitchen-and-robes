@@ -218,7 +218,7 @@ HERO
     height: 100vh;
     background-color: var(--contrast-clr);
     position: relative;
-    background-color: rgba(106, 105, 105, 0.278);
+    background-color: rgba(106, 105, 105, 0.1);
     background-image: url(../img/hero-index.jpeg);
     background-blend-mode: multiply;
     background-size: cover;

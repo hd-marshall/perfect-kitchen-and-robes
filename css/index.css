@@ -742,6 +742,7 @@ IPHONE SIZING CSS --
 
     .hero {
         text-align: center;
+        background-position: top center;
     }
 
     .hero h1 {

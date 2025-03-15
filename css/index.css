@@ -219,7 +219,7 @@ HERO
     background-color: var(--contrast-clr);
     position: relative;
     background-color: rgba(106, 105, 105, 0.278);
-    background-image: url(../img/hero-2.webp);
+    background-image: url(../img/hero-index.jpeg);
     background-blend-mode: multiply;
     background-size: cover;
     height: 100vh;
@@ -381,7 +381,6 @@ SERVICES
 .services-panel {
    position: relative;
    overflow: hidden;
-   cursor: pointer;
    transition: all 1000ms ease-in-out;
 }
 
@@ -394,6 +393,18 @@ SERVICES
 }
 
 .services-panel::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Permanent semi-transparent black overlay */
+    z-index: 1;
+}
+  
+
+/* .services-panel::before {
    content: '';
    position: absolute;
    top: 0;
@@ -403,39 +414,39 @@ SERVICES
    background-color: rgba(0, 0, 0, 0.4);
    transition: opacity 400ms ease-in-out;
    z-index: 1;
-}
+} */
 
 /* Background images stay the same */
 .services-panel.left {
-   background-image: url('../img/services-kitchen.webp');
+   background-image: url('../img/services-kitchen1.JPG');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
 
 .services-panel.mid {
-   background-image: url('../img/services-wardrobe.webp');
+   background-image: url('../img/services-wardrobes1.jpg');
    background-size: cover;
-   background-position: center;
+    background-position: center bottom;
    background-repeat: no-repeat;
 }
 
 .services-panel.right {
-   background-image: url('../img/services-shower.webp');
+   background-image: url('../img/services-shower1.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
 
 /* Hover effects */
-.services-panel:hover {
+/* .services-panel:hover {
    transform: scale(1.05);
-   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Substantial shadow on hover */
-}
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+} */
 
-.services-panel:hover::before {
+/* .services-panel:hover::before {
    opacity: 0.7;
-}
+} */
 
 
 

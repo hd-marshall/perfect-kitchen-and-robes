@@ -7,11 +7,5 @@ NOTES:
 - Other Websites/ Comp
   : Flexi Robes
 
-- Form Data needed
-  : Phone
-  : Additional Notes
-  : How did you hear about us
-
-- Factory Hours
 - Sliding doors
-- Images - Google Drive
+- Dorset Image

@@ -87,37 +87,52 @@
 
     <section class="contact" id="contact">
         <div class="contact-container">
-            <h1>Make an Enquiry</h1>
-            <form id="contactForm" class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="suburb">Suburb</label>
-                    <input type="text" id="suburb" name="suburb" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="service">Service Required</label>
-                    <select id="service" name="service" required>
-                        <option value="">Select a Service</option>
-                        <option value="kitchen">Kitchen</option>
-                        <option value="wardrobe">Wardrobe</option>
-                        <option value="vanity">Shower</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                
-                <button type="submit" class="submit-btn">Send Enquiry Request</button>
-            </form>
-            <div id="formMessage" class="form-message"></div>
+          <h1>Make an Enquiry</h1>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="suburb">Suburb</label>
+              <input type="text" id="suburb" name="suburb" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Required</label>
+              <select id="service" name="service" required>
+                <option value="">Select a Service</option>
+                <option value="kitchen">Kitchen</option>
+                <option value="wardrobe">Wardrobe</option>
+                <option value="vanity">Shower</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="source">How did you hear about us?</label>
+              <select id="source" name="source" required>
+                <option value="">Please select</option>
+                <option value="google">Google Search</option>
+                <option value="social">Social Media</option>
+                <option value="friend">Friend/Family</option>
+                <option value="advertisement">Advertisement</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="notes">Additional Notes</label>
+              <textarea id="notes" name="notes" rows="4"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Enquiry Request</button>
+          </form>
+          <div id="formMessage" class="form-message"></div>
         </div>
     </section>
 

@@ -431,8 +431,8 @@ SERVICES
 
 .services-panel.mid {
     background-image: url('../img/services-wardrobes1.jpg');
-    background-size: 170%;
-    background-position: center;
+    background-size: 175%;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 

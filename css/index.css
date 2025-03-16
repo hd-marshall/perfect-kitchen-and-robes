@@ -457,6 +457,13 @@ SERVICES
     background-repeat: no-repeat;
 }
 
+#services-vanity {
+    background-image: url('../img/services-vanity.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* Hover effects */
 /* .services-panel:hover {
    transform: scale(1.05);

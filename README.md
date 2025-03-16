@@ -8,4 +8,7 @@ NOTES:
   : Flexi Robes
 
 - Sliding doors
+- Vanitys
+- Laundrys
+
 - Dorset Image

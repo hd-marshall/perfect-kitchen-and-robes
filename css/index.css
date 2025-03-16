@@ -52,6 +52,11 @@ html {
     }
 }
 
+div {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     width: 100%;
     opacity: 0.1;
@@ -425,10 +430,10 @@ SERVICES
 }
 
 .services-panel.mid {
-   background-image: url('../img/services-wardrobes1.jpg');
-   background-size: cover;
-    background-position: center bottom;
-   background-repeat: no-repeat;
+    background-image: url('../img/services-wardrobes1.jpg');
+    background-size: 170%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .services-panel.right {
@@ -436,6 +441,20 @@ SERVICES
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+}
+
+#services-laundry {
+    background-image: url('../img/services-laundry.jpg');
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#services-sliding-doors {
+    background-image: url('../img/services-sliding-door.jpg');
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Hover effects */
@@ -796,15 +815,12 @@ IPHONE SIZING CSS --
     .services-col {
         display: flex;
         flex-direction: column;
+        padding: 0 2em 0 2em;
     }
 
     .services-panel {
         width: 100%;
-
-    }
-
-    .services-panel.mid {
-        margin: 2em 0 2em 0;
+        margin: 1em 0 1em 0;
     }
 
     /* ==========================================

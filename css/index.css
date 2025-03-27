@@ -478,6 +478,181 @@ SERVICES
 
 /* ==========================================
 
+GALLERY
+
+============================================= */
+/* gallery.css - Add this to your css/index.css file */
+
+.gallery {
+    padding: 60px 0;
+    text-align: center;
+    background-color: white
+}
+
+.gallery h1 {
+    margin-bottom: 40px;
+    font-size: 2.3em;
+    color: black;
+    font-family: var(--font-normal);
+}
+
+.gallery-container {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery-slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.gallery-slide {
+    flex: 0 0 33.333%;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-slide img::after {
+    background-color: rgba(0, 0, 0, 0.5); /* Permanent semi-transparent black overlay */
+}
+
+.gallery-slide img {
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.gallery-arrow {
+    background: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.gallery-arrow:hover {
+    background: var(--contrast-clr);
+}
+
+.gallery-arrow.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.prev-arrow {
+    margin-right: 15px;
+}
+
+.next-arrow {
+    margin-left: 15px;
+}
+
+.gallery-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.gallery-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gallery-dot.active {
+    background-color: #333;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .gallery-container {
+        width: 100%;
+    }
+    
+    .gallery-slide {
+        flex: 0 0 100%;
+        margin-right: 0;
+    }
+    
+    .gallery h1 {
+        font-size: 2.3em;
+        font-family: var(--font-normal);
+    }
+    
+    .gallery-wrapper {
+        width: 100%;
+    }
+    
+    .gallery-slide img {
+        height: 45vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-container {
+        padding: 0 10px;
+    }
+    
+    .gallery-arrow {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .gallery h1 {
+        font-size: 2.3em;
+        margin-bottom: 30px;
+    }
+    
+    .gallery-slide img {
+        height: 45vh;
+    }
+    
+    .gallery-wrapper {
+        width: 100%;
+    }
+}
+
+
+
+/* ==========================================
+
 ABOUT
 
 ============================================= */

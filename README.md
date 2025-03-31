@@ -1,6 +1,6 @@
 Melbourne based cabinets business
 
-email: perfectkitchenrobes@gmail.com
+email: info@perfectkitchenrobes.com
 
 NOTES:
 

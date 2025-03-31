@@ -25,7 +25,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     form.removeAttribute('action');
     form.removeAttribute('method');
     
-    fetch("https://formsubmit.co/ajax/perfectkitchenrobes@gmail.com", {
+    fetch("https://formsubmit.co/ajax/info@perfectkitchenrobes.com", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',
